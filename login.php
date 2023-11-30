@@ -20,7 +20,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['email'] = $email;
         $_SESSION['password'] = $password;
         $_SESSION['userId'] = $user['id'];
-
         $Role = $user['role_id'];
         $_SESSION['role_id'] = $Role;
 
