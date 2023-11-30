@@ -19,6 +19,7 @@ session_start();
     $sql="DELETE FROM cart WHERE id = $id";
     $mysqli->query($sql);
     header('Location: ' . $_SERVER['HTTP_REFERER']);
+    dfbgfb
 ?>
-qsdcs
+
 
